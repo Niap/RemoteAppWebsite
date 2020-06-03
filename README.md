@@ -45,7 +45,7 @@ CPU:最低2.0GHz处理器
 
 ![screenshot5](https://github.com/Niap/RemoteAppWebsite/raw/master/shot5.png)
 
-5. 用另外一台电脑访问 http://当前电脑ip:9999，例如 http://192.168.0.110:9999
+5. 用另外一台电脑访问 http://当前电脑ip:9999 ，例如 http://192.168.0.110:9999
 
 ![screenshot6](https://github.com/Niap/RemoteAppWebsite/raw/master/shot6.png)
 
