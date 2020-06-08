@@ -15,7 +15,7 @@ CPU:最低2.0GHz处理器
 
 场景2：一体机模式，编码和转发全部再远程完成，本机只需要打开浏览器即可，但是在远程计算机不支持多人登录的情况下（可破解），不能打开桌面，应用打开不受影响。
 
-![screenshot1](https://github.com/Niap/RemoteAppWebsite/raw/master/frame.png)
+![screenshot1](frame.png)
 
 # 部署步骤
 0. 关闭防火墙
@@ -28,24 +28,24 @@ CPU:最低2.0GHz处理器
 
 注意：开启远程桌面必须要设置windows的账户密码，尽量设置电脑为不睡眠状态。
 
-![screenshot1](https://github.com/Niap/RemoteAppWebsite/raw/master/shot1.png)
+![screenshot1](shot1.png)
 
 2. 安装.netframework 4.0及以上和RemoteAppTool
 
 因为RemoteAppTool需要安装.netframework 4.0以上，如果不安装，则会报以下错误
 
-![screenshot2](https://github.com/Niap/RemoteAppWebsite/raw/master/shot2.png)
+![screenshot2](shot2.png)
 
 3. 使用RemoteAppTool发布一个应用，这里以nodepad为例
 
 点击左下角，添加，找到notepad所在的位置，选中notepad后，软件会自动发布notepad。
 
-![screenshot3](https://github.com/Niap/RemoteAppWebsite/raw/master/shot3.png)
-![screenshot4](https://github.com/Niap/RemoteAppWebsite/raw/master/shot4.png)
+![screenshot3](shot3.png)
+![screenshot4](shot4.png)
 
 发布后界面为，双击“记事本”，修改Name和Full name为英文，这里修改成notepad即可。
 
-![screenshot5](https://github.com/Niap/RemoteAppWebsite/raw/master/shot5.png)
+![screenshot5](shot5.png)
 
 4. 安装RemoteApp.js
 
@@ -53,11 +53,11 @@ CPU:最低2.0GHz处理器
 
 解压pkg-win，双击remoteapp.exe，出现以下界面表示运行成功，期间可能弹出加入防火墙的提醒，点击确定即可。
 
-![screenshot6](https://github.com/Niap/RemoteAppWebsite/raw/master/shot6.png)
+![screenshot6](shot6.png)
 
 5. 用另外一台电脑访问 http://当前电脑ip:9999 ，例如 http://192.168.0.110:9999
 
-![screenshot7](https://github.com/Niap/RemoteAppWebsite/raw/master/shot7.png)
+![screenshot7](shot7.png)
 
 点击设置后，设置主机ip，端口，用户名和密码，这里ip地址设置为127.0.0.1，用户名密码设置为windows登陆的账号名密码。
 
@@ -65,5 +65,5 @@ CPU:最低2.0GHz处理器
 
 点击添加,输入刚刚在发布工具中修改的name和full name，并上传一个图标，点击保存后，再点开刚刚发布的应用等待一段时间即可打开。
 
-![screenshot8](https://github.com/Niap/RemoteAppWebsite/raw/master/shot8.png)
+![screenshot8](shot8.png)
 
